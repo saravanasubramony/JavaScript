@@ -1,0 +1,12 @@
+
+//To find the pentagon number between 0 to 100
+
+for(var a = 1; a <= 100; a++)
+  {
+    var b = (a * ((3 * a) - 1)) / 2;
+      console.log(b)
+    if(b > 90)
+      {
+       (a = 100)
+       }
+  }
